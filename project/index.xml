@@ -53,5 +53,20 @@ data.&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>On the Impact of Data Sampling Rates on Event Detection Accuracy in Load Signatures using a Shapelet based Approach</title>
+      <link>https://abdulhakmeh.github.io/project/shapelet-based-event-detection/</link>
+      <pubDate>Thu, 08 Aug 2019 13:39:15 +0200</pubDate>
+      <guid>https://abdulhakmeh.github.io/project/shapelet-based-event-detection/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Non-intrusive load monitoring (NILM) is one of the practical applications of the smart electricity grid. NILM provides a comprehensive road-map to detect and determine operation circumstances of an individual appliance from an aggregate load. It can also provide the energy management system with information about appliance-level power consumption, analytical statistics, and detection of energy-hungry appliances to ensure the efficient use of the resources. The event detection is one of the NILM phases that is responsible for detecting state-changes of the appliances.&lt;/p&gt;
+&lt;p&gt;In this project, a study is made to measure the impact of data sampling rate on the detection accuracy obtained through an event detection algorithm. Therefore, a machine learning based shapelet approach for electrical appliance use detection is implemented. The fast shapelet approach detects the occurrence of an event that is caused by switching on/off of an electrical appliance. A general architecture is introduced to evaluate the performance through feeding the algorithm with re-sampled data and comparing the obtained accuracy with the sampling rate. Different metrics are used to ensure a comprehensive evaluation; F1-score, confusion matrix, and classification accuracy.&lt;/p&gt;
+&lt;h2 id=&#34;data-set&#34;&gt;Data set&lt;/h2&gt;
+&lt;p&gt;To evaluate our algorithm the BLUED dataset is used. The BLUED includes one week of the current and the voltage measurements for a family house in Pennsylvania, Pittsburgh. The data collection were taken in October 2011 from nearly 50 electrical devices in the house. The dataset presents the changes in the operating status of each appliance (turn  on/off). The measurements were taken by using two separate systems; one is at the main distribution panel to capture the current and voltage, and the other system is used to register the time stamps for each event. The reason behind choosing the BLUED is that this dataset in its original form provides raw data of the current and the voltage.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The results of the experiment have shown that it is possible to detect appliances events with downsampled data using a shapelet based approach. Furthermore, it would have been as well possible that the downsampling improves the accuracy, but the evaluation of the event detection on noisy downsampled data have statistically verified that the lowering of the sampling rate is directly proportional to the accuracy of the detection in a linear form.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
